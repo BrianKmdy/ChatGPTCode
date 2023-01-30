@@ -1,5 +1,7 @@
 # Chat GPT Code
-This extension is for terminal based AI assisted programming. It takes advantage of the ChatGPT python package and has additional formatting to make it easier to use for developers.
+This extension is for terminal based AI assisted programming. It takes advantage of the [ChatGPT](https://github.com/acheong08/ChatGPT) python package and has additional formatting to make it easier to use for developers.
+
+![Example](screenshots/example.png)
 
 ## Installation
 Chat GPT Code can be installed with pip:
