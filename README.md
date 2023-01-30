@@ -2,12 +2,9 @@
 This extension is for terminal based AI assisted programming. It takes advantage of the ChatGPT python package and has additional formatting to make it easier to use for developers.
 
 ## Installation
-I'll publish a pip package soon, but for now you can install it by cloning the repo and running the following from the project's root directory.
+Chat GPT Code can be installed with pip:
 ```bash
-> git clone https://github.com/BrianKmdy/ChatGPTCode.git
-> cd ChatGPTCode
-> pip install poetry
-> poetry install
+> pip install chatgptcode
 ```
 
 ## Setup
@@ -22,7 +19,7 @@ Create a file called `config.json` in folder `.gptcode` in your home directory. 
 ## Usage
 To run the app with poetry use the following command. In order for this to work you'll need to have chrome or chromium installed. A browser instance will pop up, connect to chat GPT, and then will automatically be hidden from view.
 ```bash
-> poetry run python -m gptcode
+> python -m chatgptcode
 ```
 
 You can then ask chat GPT questions and get a response in your terminal! With nicely formatted code and easy to read output.
